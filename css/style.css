@@ -29,14 +29,13 @@
 .section-one {
 	display: flex;
 	justify-content: center;
-
-	margin-left: 132px;
+	margin-left: 120px;
 	margin-top: 285px;
 }
 
 .heading {
-	width: 500px;
-	margin-right: 300px;
+	width: 530px;
+	margin-right: 160px;
 }
 
 h1 {
@@ -172,6 +171,7 @@ h6 {
 .line-two {
 	display: flex;
 	margin-top: 60px;
+	margin-bottom: 130px;
 }
 .box4 {
 	background-color: #4386D2;
