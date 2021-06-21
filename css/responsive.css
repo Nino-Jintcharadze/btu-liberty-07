@@ -2,17 +2,17 @@
 	.section-one {
 		flex-direction: column;
 		align-items: center;
+		margin-top: 150px;
 	}
 	.button {
 		margin-bottom: 40px;
+		justify-content: center;
 	}
 	.heading {
 		max-width: 800px;
 		text-align: center;
 		margin: 0 auto;
 	}
-}
-@media (max-width: 1070px) {
 	.section-two-box {
 		width: 48%;
 		margin-left: auto;
@@ -21,6 +21,9 @@
 	.box3,
 	.box6 {
 		margin-top: 30px;
+	}
+	.line-two {
+		margin-top: 0px;
 	}
 }
 	
@@ -32,8 +35,11 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.line-two {
+		margin-bottom: 30px;
+	}
 }
-	
+
 @media (max-width: 600px) {
 	.section-two-box {
 		width: 100%;
@@ -49,7 +55,7 @@
 		font-size: 45px;
 	}
 	h5 {
-		font-size: 16px;
+		font-size: 14px;
 	}
 }
 	
