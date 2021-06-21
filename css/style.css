@@ -34,26 +34,20 @@ header {
 .section-one {
 	display: flex;
 	justify-content: space-around;
-	/*flex-wrap: wrap;*/
-	/*margin-left: 120px;
-	margin-right: 72px;*/
 	margin-top: 285px;
 }
 
 .heading {
 	max-width: 400px;
 	width: 100%;
-	/*margin-right: 160px;*/
 }
 
 h1 {
-	font-size: 78px;
+	font-size: 65px;
 	font-family: 'Lato';
 }
-.small-heading {
-	margin-top: 42px;
-}
 h5 {
+	margin-top: 42px;
 	font-size: 22px;
 	font-family: 'Roboto';
 }
@@ -61,20 +55,18 @@ h5 {
 	display: flex;
 	align-items: center;
 	margin-top: 83px;
-	margin-bottom: 280px;
+	margin-bottom: 180px;
 	max-width: 260px;
-	width: 100%;
+	width: 70%;
 	height: 80px;
 	border-radius: 38px;
+	padding-left: 22px;
+	padding-right: 24px;
 	background-color: #3D37F1;
 }
-.hand-icon {
-	width: 30px;
-	height: 30px;
-	margin-left: 22px;
-	margin-right: 24px;
-}
+
 .button-text {
+	margin-left: 15px;
 	font-family: 'Roboto';
 	font-size: 23px;
 	color: white;
